@@ -1,0 +1,70 @@
+.banner-works {
+    padding-top: 120px;
+}
+
+.banner-works-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-blue);
+    max-height: 670px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 48px;
+}
+
+.banner-works-title {
+    text-align: center;
+    font-family: var(--font-main);
+    font-size: clamp(24px, 8vw, 112px);
+    color: var(--color-main);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.banner-works-title span {
+    font-family: var(--font-accent);
+    font-size: clamp(24px, 8vw, 109px);
+    line-height: 109%;
+}
+
+.banner-works-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.banner-works-img-2 {
+    position: absolute;
+    bottom: 0;
+    width: 258px;
+    height: 117px;
+}
+
+.banner-works-img-3 {
+    position: absolute;
+    bottom: 0;
+    width: 177px;
+    height: 206px;
+}
+
+.banner-works-img-4 {
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+    height: 172px;
+}
+
+.banner-works-flower-1 {
+    position: absolute;
+    bottom: 0;
+    width: 146px;
+    height: 152px;
+}
+
+.banner-works-flower-2 {
+    position: absolute;
+    bottom: 0;
+    width: 95px;
+    height: 90px;
+}

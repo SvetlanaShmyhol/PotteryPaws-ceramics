@@ -1,0 +1,30 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+}
+
+.main-title {
+    text-align: center;
+    padding: 30px 0;
+    font-family: var(--font-main);
+    font-size: 62px;
+}
+
+h2 .main-title-italic {
+    font-family: var(--font-accent);
+    font-size: 66px;
+    line-height: 109%;
+}
+
+.main-description {
+    font-family: var(--font-accent-2);
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--text-gray);
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+	--container-width: 1300px;
+	--container-padding: 20px;
+
+	--font-main: "Aclonica", sans-serif;
+	--font-accent: "Aguafina Script", cursive;
+	--font-accent-2: "Iowan Old Style", serif;
+	--font-accent-3: "Lato", sans-serif;
+	
+
+	--page-bg: #F8F0DC;
+	--color-main: #F8F0DC;
+	--text-color: #000;
+	--text-gray: #828381;
+	--accent: #E9627B;
+	--color-blue: #63A6C1;
+	--color-green: #7AB462;
+	--color-yellow: #F1C862;
+	--color-pink: #FEB4C3;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}
+
+@font-face {
+	font-family: "Iowan Old Style";
+	src: url(../../fonts/iowanoldstyle_bold.otf) format(opentype);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Iowan Old Style";
+	src: url(../../fonts/iowanoldstyle_italic.ttf) format(opentype);
+	font-weight: 400;
+	font-style: italic;
+   }

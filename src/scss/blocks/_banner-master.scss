@@ -1,0 +1,70 @@
+.banner-master {
+    padding-top: 140px;
+}
+
+.banner-master-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-blue);
+    max-height: 670px;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 48px;
+}
+
+.banner-master-title {
+    text-align: end;
+    font-family: var(--font-main);
+    font-size: clamp(24px, 8vw, 90px);
+    color: var(--color-main);
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.banner-master-title span {
+    font-family: var(--font-accent);
+    font-size: clamp(24px, 8vw, 109px);
+    line-height: 109%;
+}
+
+.banner-master-right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-end;
+}
+
+.banner-master-img-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 177px;
+    height: 206px;
+    rotate: -20deg;
+}
+
+.banner-master-img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    width: 270px;
+    height: 172px;
+}
+
+.banner-master-img-3 {
+    position: absolute;
+    bottom: 150px;
+    right: 170px;
+    width: 258px;
+    height: 150px;
+    rotate: 20deg;
+}
+
+.banner-master-flower {
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+    width: 146px;
+    height: 152px;
+}
