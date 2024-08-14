@@ -1,34 +1,12 @@
 .flower-block {
     padding-top: 80px;
-}
 
-.flower-block-container,
-.flower-block-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.flower-block-title {
-    text-align: center;
-    padding: 30px 0;
-    font-family: var(--font-main);
-    font-size: 62px;
-}
-
-.flower-block-title span {
-    font-family: var(--font-accent);
-    font-size: 66px;
-    line-height: 109%;
-}
-
-.flower-block-description {
-    font-family: var(--font-accent-2);
-    font-size: 20px;
-    font-weight: 200;
-    font-style: italic;
-    color: var(--text-gray);
+    &-container, &-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .flower-banner {

@@ -1,70 +1,67 @@
 .banner-master {
-    padding-top: 140px;
-}
+    margin: 140px 20px 0 20px;
 
-.banner-master-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-blue);
-    max-height: 670px;
-    height: auto;
-    width: 100%;
-    padding: 20px;
-    border-radius: 48px;
-}
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--color-blue);
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        border-radius: 48px;
 
-.banner-master-title {
-    text-align: end;
-    font-family: var(--font-main);
-    font-size: clamp(24px, 8vw, 90px);
-    color: var(--color-main);
-    padding-right: 60px;
-    padding-top: 20px;
-}
+        @include mobile {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 
-.banner-master-title span {
-    font-family: var(--font-accent);
-    font-size: clamp(24px, 8vw, 109px);
-    line-height: 109%;
-}
+    &-title {
+        text-align: end;
+        font-family: var(--font-main);
+        font-size: clamp(72px, 7vw, 90px);
+        color: var(--color-main);
+        padding-right: 60px;
+        padding-top: 20px;
 
-.banner-master-right {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: flex-end;
-}
+        @include mobile {
+            text-align: center;
+            padding: 20px;
+        }
 
-.banner-master-img-1 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 177px;
-    height: 206px;
-    rotate: -20deg;
-}
+        span {
+            font-family: var(--font-accent);
+            font-size: clamp(64px, 6vw, 109px);
+            line-height: 109%;
+        }
+    }
 
-.banner-master-img-2 {
-    position: absolute;
-    bottom: 0;
-    left: 40px;
-    width: 270px;
-    height: 172px;
-}
+    &-right {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-end;
+        justify-content: space-between;
 
-.banner-master-img-3 {
-    position: absolute;
-    bottom: 150px;
-    right: 170px;
-    width: 258px;
-    height: 150px;
-    rotate: 20deg;
-}
+        @include mobile {
+            align-items: center;
+        }
+    }
 
-.banner-master-flower {
-    position: absolute;
-    bottom: 0;
-    right: 170px;
-    width: 146px;
-    height: 152px;
+    &-img {
+        width: 580px;
+        height: auto;
+
+        @include mobile {
+            display: none;
+        }
+    }
+
+    &-flower {
+        position: absolute;
+        bottom: 0;
+        right: 170px;
+        width: 146px;
+        height: 152px;
+    }
 }

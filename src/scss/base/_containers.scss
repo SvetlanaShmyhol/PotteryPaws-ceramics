@@ -2,6 +2,10 @@
 	padding: 0 var(--container-padding);
 	max-width: var(--container-width);
 	margin: 0 auto;
+
+	@media (max-width: var(--laptop-size)) {
+		border: 1px solid red;
+	}
 }
 
 .container-right {

@@ -1,70 +1,55 @@
 .banner-works {
-    padding-top: 120px;
-}
+    margin: 120px 20px 0 20px;
 
-.banner-works-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--color-blue);
-    max-height: 670px;
-    height: auto;
-    width: 100%;
-    padding: 20px;
-    border-radius: 48px;
-}
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--color-blue);
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        border-radius: 48px;
+        align-items: center;
+    
+        @include mobile {
+            padding: 60px 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 
-.banner-works-title {
-    text-align: center;
-    font-family: var(--font-main);
-    font-size: clamp(24px, 8vw, 112px);
-    color: var(--color-main);
-    padding-left: 20px;
-    padding-top: 20px;
-}
+    &-title {
+        text-align: center;
+        font-family: var(--font-main);
+        font-size: clamp(64px, 8vw, 112px);
+        color: var(--color-main);
+        padding-left: 20px;
+        padding-top: 20px;
 
-.banner-works-title span {
-    font-family: var(--font-accent);
-    font-size: clamp(24px, 8vw, 109px);
-    line-height: 109%;
-}
+        span {
+            font-family: var(--font-accent);
+            font-size: clamp(50px, 8vw, 109px);
+            line-height: 109%;
+        }
+    
+        @include mobile {
+            padding: 0 0 20px 0;
+        }
+    }
 
-.banner-works-left {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
+    &-left {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+    }
 
-.banner-works-img-2 {
-    position: absolute;
-    bottom: 0;
-    width: 258px;
-    height: 117px;
-}
-
-.banner-works-img-3 {
-    position: absolute;
-    bottom: 0;
-    width: 177px;
-    height: 206px;
-}
-
-.banner-works-img-4 {
-    position: absolute;
-    bottom: 0;
-    width: 270px;
-    height: 172px;
-}
-
-.banner-works-flower-1 {
-    position: absolute;
-    bottom: 0;
-    width: 146px;
-    height: 152px;
-}
-
-.banner-works-flower-2 {
-    position: absolute;
-    bottom: 0;
-    width: 95px;
-    height: 90px;
+    &-img {
+        width: 636px;
+        height: auto;
+        
+        @include mobile {
+            display: none;
+        }
+    }
 }
